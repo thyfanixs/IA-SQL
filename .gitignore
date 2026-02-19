@@ -1,0 +1,13 @@
+# Ignorar arquivos de senhas e variáveis de ambiente
+.env
+secrets.toml
+
+# Ignorar pastas virtuais do Python
+venv/
+.venv/
+env/
+__pycache__/
+
+# Ignorar arquivos de dados locais (se houver)
+*.csv
+*.xlsx
