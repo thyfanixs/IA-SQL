@@ -3,7 +3,7 @@
 Um produto de dados interativo construído em Python que conecta diretamente a um banco SQL Server para transformar dados brutos de faturamento em insights acionáveis. O sistema une filtros determinísticos de alta velocidade com uma análise qualitativa feita por Inteligência Artificial rodando 100% localmente.
 
 ## 🎯 O Desafio
-O objetivo deste projeto foi criar uma ferramenta analítica para a tabela `FtFaturamento`. A necessidade era ir além do tradicional "o que aconteceu" (tabelas e gráficos) e ajudar a responder "por que aconteceu", mantendo a rigorosa privacidade dos dados financeiros da empresa (sem envio para APIs externas na nuvem). 
+O objetivo deste projeto foi criar uma ferramenta analítica para uma tabela de faturamento corporativa. A necessidade era ir além do tradicional "o que aconteceu" (tabelas e gráficos) e ajudar a responder "por que aconteceu", mantendo a rigorosa privacidade dos dados financeiros da empresa (sem envio para APIs externas na nuvem). 
 
 ## 💡 A Solução (Analítica Híbrida)
 Desenvolvi uma arquitetura de Analítica Híbrida dividida em duas camadas:
@@ -11,7 +11,7 @@ Desenvolvi uma arquitetura de Analítica Híbrida dividida em duas camadas:
 2. **Refino Qualitativo (Ollama + Llama 3):** Após o filtro humano, uma IA local recebe o contexto resumido dos dados em tela e atua como um "Controller Virtual", capaz de explicar anomalias, destacar os Top 5 Clientes e sugerir tendências baseadas no período selecionado.
 
 ## 🎨 Design e Usabilidade
-A interface foi projetada com foco na experiência do usuário e rápida leitura de KPIs (Faturamento Líquido, Peso e Quantidade de Notas). A identidade visual foi customizada para refletir as cores corporativas, com destaque para o **laranja** do DVG GRUPO, garantindo aderência à marca.
+A interface foi projetada com foco na experiência do usuário e rápida leitura de KPIs (Faturamento Líquido, Peso e Quantidade de Notas). A identidade visual foi customizada para refletir as cores corporativas, garantindo aderência à marca.
 
 ## 🛠️ Tecnologias Utilizadas
 * **Linguagem:** Python
